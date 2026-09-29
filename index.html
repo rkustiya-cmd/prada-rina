@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f0e7">
+  <title>Prada & Rina | Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Allura&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio id="weddingMusic" loop preload="none"><source src="assets/music.mp3" type="audio/mpeg"></audio>
+  <button class="music-toggle" id="musicToggle" aria-label="Play or pause music">♫ <span>Music</span></button>
+
+  <section class="opening" id="opening">
+    <div class="photo-bg opening-bg"></div><div class="soft-overlay"></div>
+    <div class="opening-content">
+      <p class="kicker">THE WEDDING OF</p>
+      <h1>Prada <i>&amp;</i> Rina</h1>
+      <p class="date-line">29 NOVEMBER 2026 <span>·</span> BROMO, EAST JAVA</p>
+      <div class="envelope-button" id="openInvite" role="button" tabindex="0" aria-label="Open wedding invitation">
+        <div class="envelope">
+          <div class="letter"><span class="tiny-rose">✿</span><small>YOU ARE INVITED TO</small><strong>Prada <i>&amp;</i> Rina</strong><span>Our Wedding Day</span><small>29 · 11 · 2026</small></div>
+          <div class="flap"></div><div class="pocket"></div><div class="seal">P<span>&amp;</span>R</div>
+        </div>
+        <span class="tap-label">TAP TO OPEN OUR INVITATION ↓</span>
+      </div>
+    </div>
+    <div class="floating-petals" aria-hidden="true"><span>✿</span><span>✿</span><span>✿</span><span>✿</span><span>✿</span></div>
+  </section>
+
+  <div id="site" hidden>
+    <header class="topbar">
+      <a class="monogram" href="#home">P <i>&amp;</i> R</a>
+      <nav><a href="#story">Our Story</a><a href="#couple">Couple</a><a href="#details">Details</a><a href="#gallery">Gallery</a><a href="#rsvp">RSVP</a></nav>
+    </header>
+
+    <section class="hero photo-bg" id="home">
+      <div class="hero-shade"></div><div class="petal-layer" aria-hidden="true"><span>✿</span><span>✿</span><span>✿</span></div>
+      <div class="hero-text"><p class="kicker">WITH THE BLESSING OF OUR FAMILIES</p><h2>Prada <i>&amp;</i> Rina</h2><p class="handwriting">Two different paths, one beautiful journey.</p><p class="date-line">SUNDAY · 29 NOVEMBER 2026</p><a class="scroll-link" href="#story">SCROLL TO EXPLORE ↓</a></div>
+    </section>
+
+    <section class="section story" id="story">
+      <p class="kicker">A VERSE ABOUT LOVE</p><div class="ornament">✿</div>
+      <blockquote>“And among His signs is that He created for you from yourselves mates that you may find tranquillity in them; and He placed between you affection and mercy. Indeed in that are signs for a people who give thought.”</blockquote>
+      <p class="verse-ref">Qur’an · Surah Ar-Rum (30:21)</p>
+      <p class="handwriting">May our home be filled with peace, affection, and mercy.</p>
+      <div class="rose-corner left">✿</div><div class="rose-corner right">✿</div>
+    </section>
+
+    <section class="section couple" id="couple">
+      <p class="kicker">THE TWO OF US</p><h2 class="section-title">Bride <i>&amp;</i> Groom</h2>
+      <p class="handwriting">Every step brought us closer.</p>
+      <div class="people">
+        <article class="person"><div class="portrait bride-photo"><span>Replace with bride photo<br>(hijab)</span></div><p class="role">THE BRIDE</p><h3>Rina Kustiyawati</h3><p class="parent">Daughter of<br><b>Sukandar</b></p></article>
+        <div class="heart-divider">♡</div>
+        <article class="person"><div class="portrait groom-photo"><span>Replace with groom photo</span></div><p class="role">THE GROOM</p><h3>Mohamad Taufiq<br>Ardy Pradana</h3><p class="parent">Son of<br><b>Moh. Arifin (Alm.)</b></p></article>
+      </div>
+    </section>
+
+    <section class="section details" id="details">
+      <p class="kicker">SAVE THE DATE</p><h2 class="section-title">The Wedding <i>Details</i></h2>
+      <div class="mini-landscape photo-bg"></div>
+      <div class="event-grid">
+        <article><span class="event-num">01</span><h3>Akad Nikah</h3><p>Sunday, 29 November 2026</p><b>13.00 WIB</b><hr><strong>The Bride's House</strong></article>
+        <article><span class="event-num">02</span><h3>Wedding Reception</h3><p>Sunday, 29 November 2026</p><b>16.00 WIB – selesai</b><hr><strong>The Bride's House</strong></article>
+      </div>
+      <a class="button" href="https://maps.app.goo.gl/oEDqSugcXfv7cXTc6" target="_blank" rel="noopener">OPEN GOOGLE MAPS ↗</a>
+      <div class="countdown"><p class="kicker">COUNTING DOWN TO OUR DAY</p><div class="timer"><div><b id="days">00</b><small>DAYS</small></div><div><b id="hours">00</b><small>HOURS</small></div><div><b id="minutes">00</b><small>MINUTES</small></div><div><b id="seconds">00</b><small>SECONDS</small></div></div></div>
+    </section>
+
+    <section class="section gallery" id="gallery">
+      <p class="kicker">OUR MOMENTS</p><h2 class="section-title">Love on the <i>trail</i></h2><p class="handwriting">A little glimpse of our journey.</p>
+      <div class="gallery-grid">
+        <div class="gallery-tile tile-one photo-bg"><span>Mountain mornings</span></div>
+        <div class="gallery-tile tile-two"><span>Side by side</span></div>
+        <div class="gallery-tile tile-three photo-bg"><span>Every step, together</span></div>
+      </div>
+      <p class="small-note">Replace the sample image panels with your own photos in the assets folder.</p>
+    </section>
+
+    <section class="section rsvp" id="rsvp">
+      <div class="rose-big">✿</div><p class="kicker">YOUR PRESENCE IS OUR PRESENT</p><h2 class="section-title">Will you <i>join us?</i></h2>
+      <p class="handwriting">Please confirm your attendance.</p>
+      <form id="rsvpForm">
+        <label>Guest name<input id="guestName" required placeholder="Your full name"></label>
+        <label>Number of guests<select id="guestCount"><option>1 person</option><option>2 people</option><option>3 people</option><option>4 people</option></select></label>
+        <label>Your wishes<textarea id="guestMessage" rows="3" placeholder="Write a prayer or message (optional)"></textarea></label>
+        <button class="button" type="submit">SEND RSVP VIA WHATSAPP</button>
+      </form>
+      <div class="gift"><p class="kicker">A LITTLE WEDDING GIFT</p><h3>Wedding Gift</h3><p>Your prayers and warm wishes mean the world to us. For those who wish to send a gift:</p>
+        <div class="account"><small>BANK NAME · PLEASE UPDATE</small><b id="accountNumber">0000000000</b><span>Account holder: Prada &amp; Rina</span><button id="copyAccount" class="copy-btn">COPY ACCOUNT NUMBER</button></div>
+      </div>
+      <div class="closing"><p class="handwriting">With love and gratitude,</p><h2>Prada <i>&amp;</i> Rina</h2><p>29 · 11 · 2026</p></div>
+    </section>
+    <footer>MADE WITH LOVE · PRADA &amp; RINA</footer>
+  </div>
+  <script src="script.js"></script>
+</body></html>
